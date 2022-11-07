@@ -12,7 +12,12 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=7.0', ]
 
-test_requirements = ['pytest>=3', ]
+test_requirements = ['pytest>=3',
+                     "torch>=1.0.0",
+                     "FrEIA>=0.2",
+                     "PyGSP @ git+https://github.com/epfl-lts2/pygsp.git@39a0665f637191152605911cf209fc16a36e5ae9#egg=PyGSP",
+                     "healpy>=1.15.0",
+                     ]
 
 setup(
     author="Esteban Vaca",
